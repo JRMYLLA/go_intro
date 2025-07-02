@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-func main() {
+func practica() {
 
 	//Operators and conditionals in Go 
 
