@@ -83,7 +83,21 @@ func main(){
 		intVal1, err := strconv.ParseInt("1333", 0,64)
 		fmt.Println(err)
 		fmt.Printf("type: %T, value: %d\n", intVal1, intVal1)
+
+		//FLOTANTES
+		floatVar1, _ := strconv.ParseFloat("-11.23", 64)
+		fmt.Printf("type: %T, value: %f\n", floatVar1, floatVar) 
 	
+
+		//BIT: es UN DÍGITO, es el valor más pequeño que puede 
+		// tener una variable, es un 0 o un 1
+		// BYTE: es un conjunto de 8 bits, es el valor más 
+		// pequeño que puede 0=00000000, 1=00000001, 2=00000010, 3=00000011, etc.
+		// 255=11111111, 256=0000000100000000
+		//KILOBYTE: es un conjunto de 1024 bytes, es el valor más 
+		// pequeño que puede tener una variable, es un 0 o un 1
+		//MEGABYTE: es un conjunto de 1024 kilobytes,
+		
 	}
 
 }
