@@ -15,4 +15,10 @@ func main() {
 
 	function.RepeatString(2, "Go")
 
+	v, err := function.Calc(function.SUM, 3,6)
+	fmt.Println("Value:", v, " - Error:", err)
+	v, err = function.Calc(function.DIV, 3,0)
+	fmt.Println("Value: ", v, " - Error: ", err)
+
+
 }
